@@ -16,14 +16,14 @@
     <ul>
     <li>What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.</li>
     <figure>
-        <img src="./images/avg_price_4bed.png">
+        <img src="./images/avg_price_4bed.png" style="width: 150px; height: 250px"><br />
         <figcaption>Fig. 2 - Spark SQL query</figcaption>
     </figure>
     <li>What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms? Round off your answer to two decimal places.</li>
     <li>What is the average price of a home for each year the home was built, that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.</li>
     <li>What is the average price of a home per "view" rating having an average home price greater than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.</li>
     <figure>
-        <img src="./images/home_over350_initial.png">
+        <img src="./images/home_over350_initial.png" style="width: 300px; height: 250px"><br />
         <figcaption>Fig. 3 - Timed query: high rating</figcaption>
     </figure>
     </ul>
@@ -31,14 +31,14 @@
 <li>Check if your temporary table is cached.</li>
 <li>Using the cached data, run the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.</li>
 <figure>
-    <img src="./images/home_over350_cached.png">
+    <img src="./images/home_over350_cached.png" style="width: 300px; height: 250px"><br />
     <figcaption>Fig. 4 - Timed query: cached table</figcaption>
 </figure>
 <li>Partition by the "date_built" field on the formatted parquet home sales data.</li>
 <li>Create a temporary table for the parquet data.</li>
 <li>Run the last query that calculates the average price of a home per "view" rating having an average home price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.</li>
 <figure>
-    <img src="./images/home_over350_partitioned.png">
+    <img src="./images/home_over350_partitioned.png" style="width: 300px; height: 250px"><br />
     <figcaption>Fig. 5 - Timed query: partitioned date</figcaption>
 </figure>
 <li>Uncache the home_sales temporary table.</li>
